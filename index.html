@@ -1,6 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Google tag (gtag.js) -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blank's Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"> 
+    <style>
+        body { font-family: 'Ubuntu', sans-serif; margin: 0; background: #f0f0f0 url('https://www.transparenttextures.com/patterns/cubes.png'); }
+        
+        /* Navigation Bar */
+        nav { background: #e6e3e3; padding: 1rem; text-align: center; }
+        nav a { color: #333; text-decoration: none; margin: 0 1rem; }
+        
+        /* Main Content */
+        main { display: flex; padding: 2rem; flex: 1; } 
+        section { flex: 1; padding: 1rem; }
+        .profile { text-align: center; }
+        .profile-pic { width: 150px; height: 150px; border-radius: 50%; margin-bottom: 1rem; }
+
+        
+        footer { 
+            background: #e6e3e3; padding: 1rem; text-align: center;
+            position: fixed; bottom: 0; width: 100%;
+        }
+        .social-links { display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; }
+        .social-links img { width: 30px; height: 30px; }
+    </style>
+</head>
+<body>
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RQP95GSCD3"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -9,88 +39,29 @@
 
   gtag('config', 'G-RQP95GSCD3');
 </script>
-    
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blank's website</title>
-    <style>
-        body {
-            background-color: #ffffff;
-            color: #000000;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            text-align: center;
-            padding: 2rem;
-            background-color: #ffffff;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-        .profile-pic {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-top: 1rem;
-        }
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            margin-top: 1rem;
-        }
-        .social-links a {
-            color: #ffffff;
-            text-decoration: none;
-            font-size: 1.5rem;
-        }
-        .social-links a:hover {
-            color: #000000;
-        }
-        .social-links img {
-            width: 40px;
-            height: 40px;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background-color: #e6e3e3;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Welcome! </h1>
-        <img src="https://i.ibb.co/8Df365x/Screenshot-20240606-083713-2.png" alt="Profile Picture" class="profile-pic">
-        <p> I am Blank, a tech enthusiast who’s particularly passionate about Android ✨ My socials:</p>
-        <div class="social-links">
-    <!-- Existing social links -->
-    <a href="https://dsc.gg/blank9485" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="Discord">
-    </a>
-    <a href="https://www.tiktok.com/@blank9485" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok">
-    </a>
-    <a href="https://github.com/blank9485" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
-    </a>
-    <!-- Instagram link -->
-    <a href="https://www.instagram.com/blank9485_?igsh=MTJzdzdvc2xhYm1obA==" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
-    </a>
-</div>
-</a>
-        </div>
-    </header>
+
+    <nav>
+        <a href="mailto:blank9485.net@gmail.com">Contact</a>
+    </nav>
+
+    <main>
+        <section class="profile">
+            <img src="https://i.ibb.co/8Df365x/Screenshot-20240606-083713-2.png" alt="Profile Picture" class="profile-pic">
+            <h1>Welcome!</h1>
+            <p>I am Blank, a tech enthusiast who’s particularly passionate about Android ✨.</p>
+        </section>
+        <section>
+            </section>
+    </main>
+
     <footer>
-    <p>&copy; 2024 Blank9485. All rights reserved.</p>
+        <p class="copyright">&copy; 2024 Blank9485. All rights reserved.</p> 
+        <div class="social-links">
+            <a href="https://dsc.gg/blank9485"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="Discord"></a>
+            <a href="https://www.tiktok.com/@blank9485"><img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok"></a>
+            <a href="https://github.com/blank9485"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub"></a>
+            <a href="https://www.instagram.com/blank9485_?igsh=MTJzdzdvc2xhYm1obA=="><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram"></a>
+        </div>
     </footer>
 </body>
-</html>    
+</html>
