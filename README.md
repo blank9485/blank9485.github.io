@@ -1,4 +1,13 @@
-# 💫 Blank's website repo
-**Repo for Blank's website can be found [here](https://blank9485.github.io/)**
+# 🌟 Blank's Website Repository 
+
 > [!NOTE]
-> This site is still under development, if you experience bugs, please create an issue. 
+> This site is currently under development. If you encounter any bugs, please don't hesitate to create an issue. 
+
+The site can be found [here](https://blank9485.github.io/) 
+
+Created by:
+
+- Blank9485
+- ChatGPT
+- Google Gemini
+- Copilot
